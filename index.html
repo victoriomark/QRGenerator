@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d4532539ca.js" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/d4532539ca.js" crossorigin="anonymous"></script>
+    <title>QRGenerator</title>
+</head>
+<body>
+    <div data-aos="fade-up" class="container">
+        <h1>QRCode Generator</h1>
+        <form action="#">
+            <input type="text" id="text" placeholder="Text or URL">
+        </form>
+       <button type="button">Generate</button>
+    </div>
+
+    <div  class="output ">
+        <div class="icon">
+            <i class="fa-solid fa-download"></i>
+        </div>
+    <img src="" alt="">
+    <button id="close">x</button>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

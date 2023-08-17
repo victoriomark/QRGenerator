@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #272829;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins',sans-serif;
+    height: 100vh;
+    gap: 10px;
+}
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.container button {
+    padding: 10px;
+    border: none;
+    background-color: #0C356A;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.container form input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-bottom: solid #222 1px;
+    width: 100%;
+    background-color: aliceblue;
+    
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.output{
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   position: absolute;
+   display: none;
+  
+}
+.icon{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.icon i{
+    color: #0C356A;
+}
+
+#close{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: #0C356A;
+    color: #fff;
+    font-weight: bold;
+}
+
+.activeOutput{
+    display: inline-flex;
+    transition: 1s;
+}
+
